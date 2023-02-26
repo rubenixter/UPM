@@ -13,6 +13,23 @@ Finally some urlsX.txt will be created if the paper contains any url in which X 
 
 ## Environment
 
+You this code was made under python 3.9.16 and uses pip 22.3.1.
+The code imports os, request, re, and matplot.pyplot modules. To get this module simple copy the pip install bash code bellow.
+
+```bash
+pip install os
+```
+```bash
+pip install request
+```
+```bash
+pip install re
+```
+```bash
+pip install matplot.pyplot
+```
+
+Assuming that you have the grobid instalation for python done. If not check: https://github.com/kermitt2/grobid_client_python
 
 ## Docker
 
