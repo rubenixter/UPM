@@ -2,6 +2,7 @@
 In this document, the operation of the IAOS.py program will be explained, in addition to giving instructions on how to make an environment to run this locally, 
 and some Docker run instructions
 
+[![DOI](https://zenodo.org/badge/598232222.svg)](https://zenodo.org/badge/latestdoi/598232222)
 ## AIOS.py
 
 It is supossed that you have grobbid properly instaled in your machine and running at localhost:8070
