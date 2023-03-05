@@ -27,11 +27,20 @@ pip install request
 pip install re
 ```
 ```bash
-pip install matplot.pyplot
+pip install matplot
 ```
 
 Assuming that you have the grobid instalation for python done. If not check: https://github.com/kermitt2/grobid_client_python
 
 ## Docker
+ 
+To create the container, use this command in the same directory as the environment:
+```bash
+docker build -t iaos .
+```
 
+To run the container:
+```bash
+docker run -network=host -v ./ToAnalize:/app/ToAnalize -v ./Results:/app/Results iaos
+```
 
