@@ -1,0 +1,29 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/rubenixter/UPM_IA-OS",
+    "dateModified": "2023-03-05",
+    "name": "IAOS",
+    "description": "Python script that takes pdfs in a folder, analyses them and returning a list of links, a bar char of the figures and wordclouds of each abstract",
+    "keywords": [
+        "Grobid",
+        "python",
+        "wordcloud",
+        "figures",
+        "paper"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "operatingSystem": [
+        "windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ruben",
+            "familyName": "Llorente",
+            "email": "ruben.llorente.canet@alumnos.upm.es"
+        }
+    ]
+}
