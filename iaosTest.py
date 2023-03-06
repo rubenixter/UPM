@@ -10,7 +10,7 @@ class TestIAOS(unittest.TestCase):
         self.assertTrue(os.path.exists('Results/urls.txt'))
      #checks if all the WordCloud exists
      def test_issue_3(self):
-          for i in range(3):
+          for i in range(10):
                if not(os.path.exists('Results/Wordcloud'+str(i+1)+'.png')):
                     assert False
           assert True
