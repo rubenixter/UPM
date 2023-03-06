@@ -1,0 +1,11 @@
+DOIs:
+1 https://doi.org/10.48550/arXiv.1706.03762
+2 https://doi.org/10.3390/pr11010244
+3 https://doi.org/10.48550/arXiv.1706.03799
+4 https://doi.org/10.48550/arXiv.1706.03815
+5 https://doi.org/10.48550/arXiv.1706.03818
+6 https://doi.org/10.48550/arXiv.1706.03824
+7 https://doi.org/10.48550/arXiv.1706.03850
+8 https://doi.org/10.48550/arXiv.1706.03872
+9 https://doi.org/10.48550/arXiv.1706.03946
+10 https://doi.org/10.48550/arXiv.1706.03952
