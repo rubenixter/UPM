@@ -10,7 +10,7 @@ It is supossed that you have grobbid properly instaled in your machine and runni
 This python script will read the .pdf files from the folder./ToAnalize which and will Create some files on ./Results. The folder ./ToAnalize must contain papers in pdf format. The program will create 3 types of results. 
 The first one will be a set of .png images that will show a wordcloud of the keywords in the abstract of the papers with the name WordcloudX.png in which X is the number of the pdf in grammatical order. 
 Another .png image will be created where it will show a bar chart showing the number of figures in each pdf
-Finally some urlsX.txt will be created if the paper contains any url in which X is the number of the pdf in grammatical order. 
+Finally a urls.txt will be created if the with the url in each paper.
 
 ## Environment
 
@@ -41,6 +41,6 @@ docker build -t iaos .
 
 To run the container:
 ```bash
-docker run -network=host -v ./ToAnalize:/app/ToAnalize -v ./Results:/app/Results iaos
+docker run --network=host -v ./ToAnalize:/app/ToAnalize -v ./Results:/app/Results iaos
 ```
 
