@@ -1,0 +1,25 @@
+
+version: 1
+
+python:
+  version: 3.9
+
+sphinx:
+  version: 4.4.0
+
+docs:
+  master:
+    main: true
+    root: README
+
+
+
+
+html:
+  extra_files:
+    - metadata.json
+    - Dockerfile
+    - ToAnalize/*
+    - Results/*
+    - iaos.py
+    - IAOS.py
