@@ -19,7 +19,7 @@ i=1
 grobid_api = "http://localhost:8070/api/processFulltextDocument"
 client = GrobidClient(config_path="./config.json")
 headers = {'Accept': 'application/xml'}
-with open('./Results/urls1'+'.txt', 'w') as file:
+with open('./Results/urls'+'.txt', 'w') as file:
     # Loop over all PDF files in the directory
     for file_name in os.listdir(pdf_dir):
         urls = []
