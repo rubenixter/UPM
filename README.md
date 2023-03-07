@@ -14,7 +14,8 @@ Finally a urls.txt will be created if the with the url in each paper.
 
 ## Environment
 
-You this code was made under python 3.9.16 and uses pip 22.3.1.
+You this code was made under python 3.9 
+Copy this repository in your machine and create an environment with python 3.9 for example in conda.
 The code imports os, request, wordcloud, re, and matplot.pyplot modules. To get this modules simply copy the pip install bash code bellow.
 
 
