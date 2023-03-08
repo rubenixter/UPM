@@ -32,7 +32,8 @@ pip install wordcloud
 Assuming that you have the grobid instalation for python done. If not check: https://github.com/kermitt2/grobid_client_python
 
 ## Docker
- 
+You will need to have Grobid running on another container
+
 To create the container, use this command in the same directory as the environment:
 ```bash
 docker build -t iaos .
