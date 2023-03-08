@@ -2,6 +2,13 @@
 In this document, the operation of the IAOS.py program will be explained, in addition to giving instructions on how to make an environment to run this locally, 
 and some Docker run instructions
 
+WARNING: Readthedocs couldnt be generated, first it doesnt recognize python 3.9 and if you put 3.8 and try to generate it it will show this error:
+
+ Traceback (most recent call last):
+  File "/home/docs/checkouts/readthedocs.org/user_builds/pr2e3rf/envs/latest/lib/python3.8/site-packages/mkdocs/utils/filters.py", line 11, in module
+    @jinja2.contextfilter  
+AttributeError: module jinja2 has no attribute contextfilter
+
 [![DOI](https://zenodo.org/badge/598232222.svg)](https://zenodo.org/badge/latestdoi/598232222)
 ## AIOS.py
 
